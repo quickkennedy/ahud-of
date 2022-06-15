@@ -68,10 +68,10 @@
 		"fieldName"		"HudLungeMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"			"c-75"
+		"ypos"			"c123"
+		"wide"			"150"
+		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -81,10 +81,10 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"			"c-75"
+		"ypos"			"c123"
+		"wide"			"150"
+		"tall"			"8"
 	}
 	
 	HudDemomanCharge
@@ -92,16 +92,10 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"xpos"			"c-75"
+		"ypos"			"c25"
+		"wide"			"150"
+		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -371,7 +365,10 @@
 		"wide"	 "640"
 		"tall"	 "480"
 	}
-
+"xpos"			"c-75"
+		"ypos"			"c93"
+		"wide"			"150"
+		"tall"			"40"
 	HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"

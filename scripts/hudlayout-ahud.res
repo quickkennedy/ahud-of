@@ -158,7 +158,7 @@
 		"MeterFG"		"Red"
 		"MeterBG"		"Gray"
 	}
-	
+
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"

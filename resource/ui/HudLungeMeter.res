@@ -9,7 +9,7 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
@@ -32,11 +32,11 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"LungeMeter"
 		"font"					"Default"
-		"xpos"					"47"
-		"ypos"					"28"
+		"xpos"					"15"
+		"ypos"					"1"
 		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"5"
+		"wide"					"120"
+		"tall"					"6"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -44,5 +44,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+		"bgcolor_override"		"0 0 0 100"
+	}
 }
