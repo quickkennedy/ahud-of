@@ -260,9 +260,9 @@
 	HudRoundTimer
 	{
 		"fieldName" "HudRoundTimer"
-		"xpos"	"c-20"
+		"xpos"	"c-25"
 		"ypos"	"440"
-		"wide"	"120"
+		"wide"	"f0"
 		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"

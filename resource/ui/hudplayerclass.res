@@ -18,41 +18,13 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"18"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
-		"ypos"			"r75"	[$WIN32]
-		"ypos_minmode"	"r75"	[$WIN32]
-		"xpos"			"57"	[$X360]
-		"ypos"			"r110"	[$X360]
-		"zpos"			"3"
-		"wide"			"75"
-		"wide_minmode"	"37"
-		"tall"			"75"
-		"tall_minmode"	"37"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"xpos"			"99999"
 	}
 	"PlayerStatusClassImageColor"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageColor"
-		"xpos"			"18"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
-		"ypos"			"r88"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
-		"xpos"			"57"	[$X360]
-		"ypos"			"r110"	[$X360]
-		"zpos"			"2"
-		"wide"			"75"
-		"wide_minmode"	"37"
-		"tall"			"75"
-		"tall_minmode"	"37"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_mercenarycolorless"
-		"scaleImage"	"1"	
+		"xpos"			"99999"
 	}	
 	"PlayerStatusSpyImage"
 	{
@@ -132,7 +104,7 @@
 		"xpos"			"0"	[$WIN32]
 		"xpos_minmode"	"0"	[$WIN32]
 		"ypos"			"rs1"	[$WIN32]
-		"ypos_minmode"	"rs1"	[$WIN32]
+		"ypos_minmode"	"r88"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"100"
 		"wide_minmode"	"52"
