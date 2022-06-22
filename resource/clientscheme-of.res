@@ -338,9 +338,9 @@ Scheme
 		"MenuBoxBg"		"0 0 0 100"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"251 235 202 255"
+		"SelectionNumberFg"		"255 255 255 255"
 		"SelectionNumberBg"		"46 43 42 255"
-		"SelectionTextFg"		"251 235 202 255"
+		"SelectionTextFg"		"255 255 255 255"
 		"SelectionEmptyBoxBg" 	"0 0 0 80"
 		"SelectionBoxBg" 		"0 0 0 80"
 		"SelectionSelectedBoxBg" "0 0 0 190"
