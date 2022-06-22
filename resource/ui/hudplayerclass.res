@@ -104,7 +104,7 @@
 		"xpos"			"0"	[$WIN32]
 		"xpos_minmode"	"0"	[$WIN32]
 		"ypos"			"rs1"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
+		"ypos_minmode"	"rs1"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"100"
 		"wide_minmode"	"52"

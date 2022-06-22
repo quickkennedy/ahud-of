@@ -273,7 +273,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG2"
-		"xpos"			"23"
+		"xpos"			"32"
 		"xpos_minmode"	"39"
 		"xpos_hidef"	"114"
 		"xpos_lodef"	"114"
