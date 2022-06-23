@@ -843,7 +843,7 @@
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"3"
+		"zpos"			"2"
 		"wide"			"560"
 		"tall"			"48"
 		"autoResize"	"0"

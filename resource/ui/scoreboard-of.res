@@ -357,8 +357,8 @@
 		"fieldName"		"Count01"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"180"
-		"ypos"			"365"	[$WIN32]
+		"xpos"			"200" //180 //+20
+		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -375,8 +375,8 @@
 		"fieldName"		"Label02"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"80"
-		"ypos"			"375"	[$WIN32]
+		"xpos"			"100" //80 //+20
+		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"95"
 		"tall"			"20"
@@ -391,8 +391,8 @@
 		"fieldName"		"Count02"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"180"
-		"ypos"			"375"	[$WIN32]
+		"xpos"			"200" //180 //+20
+		"ypos"			"321" //375 //-54
 		"zpos"			"40"
 		"wide"			"35"
 		"tall"			"20"
@@ -409,8 +409,8 @@
 		"fieldName"		"Label03"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"80"
-		"ypos"			"385"	[$WIN32]
+		"xpos"			"100" //80 //+20
+		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"95"
 		"tall"			"20"
@@ -425,8 +425,8 @@
 		"fieldName"		"Count03"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"180"
-		"ypos"			"385"	[$WIN32]
+		"xpos"			"200" //180 //+20
+		"ypos"			"331" //385 //-54
 		"zpos"			"30"
 		"wide"			"35"
 		"tall"			"20"
@@ -443,8 +443,8 @@
 		"fieldName"		"Label04"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"80"
-		"ypos"			"395"	[$WIN32]
+		"xpos"			"100" //80 //+20
+		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"95"
 		"tall"			"20"
@@ -459,8 +459,8 @@
 		"fieldName"		"Count04"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"180"
-		"ypos"			"395"	[$WIN32]
+		"xpos"			"200" //180 //+20
+		"ypos"			"341" //395 //-54
 		"zpos"			"30"
 		"wide"			"35"
 		"tall"			"20"
@@ -477,8 +477,8 @@
 		"fieldName"		"Label05"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"200"	[$WIN32]
-		"ypos"			"365"	[$WIN32]
+		"xpos"			"220" //200 //+20
+		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"20"
@@ -493,8 +493,8 @@
 		"fieldName"		"Count05"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"305"	[$WIN32]
-		"ypos"			"365"	[$WIN32]
+		"xpos"			"325" //305 //+20
+		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -511,8 +511,8 @@
 		"fieldName"		"Label06"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"200"	[$WIN32]
-		"ypos"			"375"	[$WIN32]
+		"xpos"			"220" //200 //+20
+		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"20"
@@ -527,8 +527,8 @@
 		"fieldName"		"Count06"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"305"	[$WIN32]
-		"ypos"			"375"	[$WIN32]
+		"xpos"			"325" //305 //+20
+		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -545,8 +545,8 @@
 		"fieldName"		"Label07"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"200"	[$WIN32]
-		"ypos"			"385"	[$WIN32]
+		"xpos"			"220" //200 //+20
+		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"20"
@@ -561,8 +561,8 @@
 		"fieldName"		"Count07"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"305"	[$WIN32]
-		"ypos"			"385"	[$WIN32]
+		"xpos"			"325" //305 //+20
+		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -579,8 +579,8 @@
 		"fieldName"		"Label08"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"200"	[$WIN32]
-		"ypos"			"395"	[$WIN32]
+		"xpos"			"220" //200 //+20
+		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"100"
 		"tall"			"20"
@@ -595,8 +595,8 @@
 		"fieldName"		"Count08"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"305"	[$WIN32]
-		"ypos"			"395"	[$WIN32]
+		"xpos"			"325" //305 //+20
+		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -613,8 +613,8 @@
 		"fieldName"		"Label09"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"326"	[$WIN32]
-		"ypos"			"365"	[$WIN32]
+		"xpos"			"346" //326 //+20
+		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"95"
 		"tall"			"20"
@@ -629,8 +629,8 @@
 		"fieldName"		"Count09"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"425"	[$WIN32]
-		"ypos"			"365"	[$WIN32]
+		"xpos"			"445" //425 //+20
+		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -647,8 +647,8 @@
 		"fieldName"		"Label10"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"326"	[$WIN32]
-		"ypos"			"375"	[$WIN32]
+		"xpos"			"346" //326 //+20
+		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
 		"tall"			"20"
@@ -663,8 +663,8 @@
 		"fieldName"		"Count10"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"425"	[$WIN32]
-		"ypos"			"375"	[$WIN32]
+		"xpos"			"445" //425 //+20
+		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -681,8 +681,8 @@
 		"fieldName"		"Label11"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"326"	[$WIN32]
-		"ypos"			"385"	[$WIN32]
+		"xpos"			"346" //326 //+20
+		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
 		"tall"			"20"
@@ -697,8 +697,8 @@
 		"fieldName"		"Count11"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"425"	[$WIN32]
-		"ypos"			"385"	[$WIN32]
+		"xpos"			"445" //425 //+20
+		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -715,8 +715,8 @@
 		"fieldName"		"Label12"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"326"	[$WIN32]
-		"ypos"			"395"	[$WIN32]
+		"xpos"			"346" //326 //+20
+		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
 		"tall"			"20"
@@ -731,8 +731,8 @@
 		"fieldName"		"Count12"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"425"	[$WIN32]
-		"ypos"			"395"	[$WIN32]
+		"xpos"			"445" //425 //+20
+		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -749,8 +749,8 @@
 		"fieldName"		"Label13"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"north-east"
-		"xpos"			"445"	[$WIN32]
-		"ypos"			"370"	[$WIN32]
+		"xpos"			"445" // //+20
+		"ypos"			"370" // //-54
 		"zpos"			"3"
 		"wide"			"110"
 		"tall"			"20"
@@ -765,8 +765,8 @@
 		"fieldName"		"Count13"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"north-west"		[$WIN32]
-		"xpos"			"560"	[$WIN32]
-		"ypos"			"370"	[$WIN32]
+		"xpos"			"560" // //+20
+		"ypos"			"370" // //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -783,8 +783,8 @@
 		"fieldName"		"Label14"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"445"	[$WIN32]
-		"ypos"			"375"	[$WIN32]
+		"xpos"			"445" // //+20
+		"ypos"			"375" // //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
 		"tall"			"20"
@@ -799,8 +799,8 @@
 		"fieldName"		"Count14"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"560"	[$WIN32]
-		"ypos"			"375"	[$WIN32]
+		"xpos"			"560" // //+20
+		"ypos"			"375" // //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -817,8 +817,8 @@
 		"fieldName"		"Label15"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"445"	[$WIN32]
-		"ypos"			"385"	[$WIN32]
+		"xpos"			"445" // //+20
+		"ypos"			"385" // //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
 		"tall"			"20"
@@ -833,8 +833,8 @@
 		"fieldName"		"Count15"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"560"	[$WIN32]
-		"ypos"			"385"	[$WIN32]
+		"xpos"			"560" // //+20
+		"ypos"			"385" // //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -851,8 +851,8 @@
 		"fieldName"		"Label16"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"445"	[$WIN32]
-		"ypos"			"395"	[$WIN32]
+		"xpos"			"445" // //+20
+		"ypos"			"395" // //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
 		"tall"			"20"
@@ -867,8 +867,8 @@
 		"fieldName"		"Count16"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"560"	[$WIN32]
-		"ypos"			"395"	[$WIN32]
+		"xpos"			"560" // //+20
+		"ypos"			"395" // //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
