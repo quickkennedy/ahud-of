@@ -749,8 +749,8 @@
 		"fieldName"		"Label13"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"north-east"
-		"xpos"			"445" // //+20
-		"ypos"			"370" // //-54
+		"xpos"			"465" //445 //+20
+		"ypos"			"316" //370 //-54
 		"zpos"			"3"
 		"wide"			"110"
 		"tall"			"20"
@@ -765,8 +765,8 @@
 		"fieldName"		"Count13"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"north-west"		[$WIN32]
-		"xpos"			"560" // //+20
-		"ypos"			"370" // //-54
+		"xpos"			"580" //560 //+20
+		"ypos"			"316" //370 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -783,8 +783,8 @@
 		"fieldName"		"Label14"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"445" // //+20
-		"ypos"			"375" // //-54
+		"xpos"			"465" //445 //+20
+		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
 		"tall"			"20"
@@ -799,8 +799,8 @@
 		"fieldName"		"Count14"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"560" // //+20
-		"ypos"			"375" // //-54
+		"xpos"			"580" //560 //+20
+		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -817,8 +817,8 @@
 		"fieldName"		"Label15"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"445" // //+20
-		"ypos"			"385" // //-54
+		"xpos"			"465" //445 //+20
+		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
 		"tall"			"20"
@@ -833,8 +833,8 @@
 		"fieldName"		"Count15"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"560" // //+20
-		"ypos"			"385" // //-54
+		"xpos"			"580" //560 //+20
+		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
@@ -851,8 +851,8 @@
 		"fieldName"		"Label16"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"445" // //+20
-		"ypos"			"395" // //-54
+		"xpos"			"465" //445 //+20
+		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
 		"tall"			"20"
@@ -867,8 +867,8 @@
 		"fieldName"		"Count16"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"560" // //+20
-		"ypos"			"395" // //-54
+		"xpos"			"580" //560 //+20
+		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"35"
 		"tall"			"20"
