@@ -17,7 +17,7 @@
 		"medal_width"		"15"
 		"avatar_width"		"54"
 		"spacer"			"5"
-		"name_width"		"85"
+		"name_width"		"280"
 		"nemesis_width"		"15"
 		"class_width"		"20"
 		"score_width"		"20"
@@ -46,43 +46,43 @@
 		"scaleImage"		"1"
 		"PaintBackgroundType"	"1"
 	}
-	"BlueScoreBG"
+	"MercScoreBG"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"		"BlueScoreBG"
+		"fieldName"		"MercScoreBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"119"
 		"ypos_minmode"	"157"
 		"zpos"			"3"
-		"wide"			"280"
+		"wide"			"400" //stupid
 		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"ahudBlue"
+		"bgcolor_override"	"ahudPurple"
 
 		if_mvm
 		{
 			"visible"		"0"
 		}
 
-		"BlueScoreBG2"
+		"MercScoreBG2"
 		{
 			"ControlName"		"EditablePanel"
-			"fieldName"		"BlueScoreBG2"
+			"fieldName"		"MercScoreBG2"
 			"xpos"			"0"
 			"ypos"			"rs1"
 			"wide"			"f0"
 			"tall"			"3"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"ahudDarkBlue"
+			"bgcolor_override"	"ahudDarkPurple"
 			"proportionaltoparent"	"1"
 		}
 	}
-	"BlueTeamLabelNew"
+	"MercTeamLabelNew"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabelNew"
+		"fieldName"		"MercTeamLabelNew"
 		"font"			"aRegular20"
 		"labelText"		"MERCS"
 		"textAlignment"		"west"
@@ -97,7 +97,7 @@
 		"enabled"		"1"
 		"fgcolor"		"ahudWhite"
 
-		"pin_to_sibling"	"BlueScoreBG"
+		"pin_to_sibling"	"MercScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
@@ -113,14 +113,14 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"280"
+		"wide"			"400" //stupid
 		"tall"			"172"
 		"tall_minmode"	"96"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"Hudblack"
 
-		"pin_to_sibling"	"BlueScoreBG"
+		"pin_to_sibling"	"MercScoreBG"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
@@ -153,7 +153,7 @@
 		"enabled"		"1"
 		"fgcolor"		"ahudWhite"
 
-		"pin_to_sibling"	"BlueScoreBG"
+		"pin_to_sibling"	"MercScoreBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner"	"PIN_BOTTOMRIGHT"
 
@@ -180,7 +180,7 @@
 		"enabled"		"1"
 		"fgcolor"		"ahudWhite"
 
-		"pin_to_sibling"	"BlueScoreBG"
+		"pin_to_sibling"	"MercScoreBG"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPLEFT"
 
@@ -211,7 +211,7 @@
 		"ypos"			"142"
 		"ypos_minmode"	"180"
 		"zpos"			"20"
-		"wide"			"280"
+		"wide"			"400" //stupid
 		"tall"			"168"
 		"tall_minmode"	"92"
 		"pinCorner"		"0"
@@ -221,25 +221,6 @@
 		"autoresize"	"3"
 		"linespacing"	"13"
 		"linegap"		"0"
-	}
-	"Spectators"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"Spectators"
-		"font"			"ScoreboardVerySmall"
-		"labelText"		"%spectators%"
-		"textAlignment"		"west"
-		"xpos"			"184"
-		"xpos_lodef"	"105"
-		"ypos"			"403"	[$WIN32]
-		"ypos"			"200"	[$X360]
-		"zpos"			"4"
-		"wide"			"423"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
 	}
 	"ClassImage"
 	{
@@ -278,7 +259,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"560"
+		"wide"			"400" //stupid
 		"tall"			"48"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -303,7 +284,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"280"
+			"wide"			"400" //stupid
 			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
@@ -315,6 +296,28 @@
 				"bgcolor_override"	"ahudWhite"
 			}
 		}
+	}
+	"Spectators"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"Spectators"
+		"font"			"aRegular9"
+		"labelText"		"%spectators%"
+		"textAlignment"		"west"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"400" //stupid
+		"tall"			"10"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"ahudWhite"
+
+		"pin_to_sibling"	"LocalPlayerStatsPanel"
+		"pin_corner_to_sibling"	"PIN_TOPLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
 	"PlayerNameLabel"
 	{
@@ -405,7 +408,7 @@
 		"fieldName"		"Label01"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"100" //80 //+20
+		"xpos"			"180" //80 //+20
 		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"95"
@@ -421,7 +424,7 @@
 		"fieldName"		"Count01"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"200" //180 //+20
+		"xpos"			"280" //180 //+20
 		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -439,7 +442,7 @@
 		"fieldName"		"Label02"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"100" //80 //+20
+		"xpos"			"180" //80 //+20
 		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"95"
@@ -455,7 +458,7 @@
 		"fieldName"		"Count02"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"200" //180 //+20
+		"xpos"			"280" //180 //+20
 		"ypos"			"321" //375 //-54
 		"zpos"			"40"
 		"wide"			"35"
@@ -473,7 +476,7 @@
 		"fieldName"		"Label03"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"100" //80 //+20
+		"xpos"			"180" //80 //+20
 		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"95"
@@ -489,7 +492,7 @@
 		"fieldName"		"Count03"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"200" //180 //+20
+		"xpos"			"280" //180 //+20
 		"ypos"			"331" //385 //-54
 		"zpos"			"30"
 		"wide"			"35"
@@ -507,7 +510,7 @@
 		"fieldName"		"Label04"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"100" //80 //+20
+		"xpos"			"180" //80 //+20
 		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"95"
@@ -523,7 +526,7 @@
 		"fieldName"		"Count04"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"200" //180 //+20
+		"xpos"			"280" //180 //+20
 		"ypos"			"341" //395 //-54
 		"zpos"			"30"
 		"wide"			"35"
@@ -541,7 +544,7 @@
 		"fieldName"		"Label05"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"220" //200 //+20
+		"xpos"			"273" //200 //+20
 		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"100"
@@ -557,7 +560,7 @@
 		"fieldName"		"Count05"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"325" //305 //+20
+		"xpos"			"378" //305 //+20
 		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -575,7 +578,7 @@
 		"fieldName"		"Label06"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"220" //200 //+20
+		"xpos"			"273" //200 //+20
 		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"100"
@@ -591,7 +594,7 @@
 		"fieldName"		"Count06"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"325" //305 //+20
+		"xpos"			"378" //305 //+20
 		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -609,7 +612,7 @@
 		"fieldName"		"Label07"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"220" //200 //+20
+		"xpos"			"273" //200 //+20
 		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"100"
@@ -625,7 +628,7 @@
 		"fieldName"		"Count07"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"325" //305 //+20
+		"xpos"			"378" //305 //+20
 		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -643,7 +646,7 @@
 		"fieldName"		"Label08"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"220" //200 //+20
+		"xpos"			"273" //200 //+20
 		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"100"
@@ -659,7 +662,7 @@
 		"fieldName"		"Count08"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"325" //305 //+20
+		"xpos"			"378" //305 //+20
 		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -677,7 +680,7 @@
 		"fieldName"		"Label09"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"346" //326 //+20
+		"xpos"			"413" //326 //+20
 		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"95"
@@ -693,7 +696,7 @@
 		"fieldName"		"Count09"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"445" //425 //+20
+		"xpos"			"512" //425 //+20
 		"ypos"			"311" //365 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -711,7 +714,7 @@
 		"fieldName"		"Label10"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"346" //326 //+20
+		"xpos"			"413" //326 //+20
 		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
@@ -727,7 +730,7 @@
 		"fieldName"		"Count10"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"445" //425 //+20
+		"xpos"			"512" //425 //+20
 		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -745,7 +748,7 @@
 		"fieldName"		"Label11"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"346" //326 //+20
+		"xpos"			"413" //326 //+20
 		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
@@ -761,7 +764,7 @@
 		"fieldName"		"Count11"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"445" //425 //+20
+		"xpos"			"512" //425 //+20
 		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -779,7 +782,7 @@
 		"fieldName"		"Label12"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"346" //326 //+20
+		"xpos"			"413" //326 //+20
 		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
@@ -795,7 +798,7 @@
 		"fieldName"		"Count12"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"445" //425 //+20
+		"xpos"			"512" //425 //+20
 		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -813,7 +816,7 @@
 		"fieldName"		"Label13"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"north-east"
-		"xpos"			"465" //445 //+20
+		"xpos"			"505" //445 //+20
 		"ypos"			"316" //370 //-54
 		"zpos"			"3"
 		"wide"			"110"
@@ -829,7 +832,7 @@
 		"fieldName"		"Count13"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"north-west"		[$WIN32]
-		"xpos"			"580" //560 //+20
+		"xpos"			"620" //560 //+20
 		"ypos"			"316" //370 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -847,7 +850,7 @@
 		"fieldName"		"Label14"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"465" //445 //+20
+		"xpos"			"505" //445 //+20
 		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
@@ -863,7 +866,7 @@
 		"fieldName"		"Count14"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"580" //560 //+20
+		"xpos"			"620" //560 //+20
 		"ypos"			"321" //375 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -881,7 +884,7 @@
 		"fieldName"		"Label15"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"465" //445 //+20
+		"xpos"			"505" //445 //+20
 		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
@@ -897,7 +900,7 @@
 		"fieldName"		"Count15"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"580" //560 //+20
+		"xpos"			"620" //560 //+20
 		"ypos"			"331" //385 //-54
 		"zpos"			"3"
 		"wide"			"35"
@@ -915,7 +918,7 @@
 		"fieldName"		"Label16"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"east"
-		"xpos"			"465" //445 //+20
+		"xpos"			"505" //445 //+20
 		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"95"	[$WIN32]
@@ -931,7 +934,7 @@
 		"fieldName"		"Count16"
 		"font"			"ScoreboardVerySmall"
 		"textAlignment"	"west"
-		"xpos"			"580" //560 //+20
+		"xpos"			"620" //560 //+20
 		"ypos"			"341" //395 //-54
 		"zpos"			"3"
 		"wide"			"35"
