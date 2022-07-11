@@ -942,7 +942,7 @@
 		"zpos"			"12"
 		"wide"			"14"
 		"tall"			"14"
-		"visible"		"1"
+		"visible"		"0"
 
 		"pin_to_sibling"	"BtnLoadout"
 		"pin_corner_to_sibling"	"PIN_CENTER_LEFT"
