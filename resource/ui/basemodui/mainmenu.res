@@ -845,7 +845,7 @@
 		"textAlignment"	"west"
 		"labelText"		"Servers"
 		"default"		"1"
-		"command"		"OpenServerBrowser"
+		"command"		"gamemenucommand OpenServerBrowser"
 
 		"pin_to_sibling"	"BtnNewGame"
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
