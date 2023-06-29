@@ -672,7 +672,7 @@
 		"textinsetx"	"10"
 		"use_proportional_insets" "1"
 		"default"		"1"
-		"Command"		"OpenPlayerListDialog"
+		"Command"		"gamemenucommand OpenPlayerListDialog"
 
 		"pin_to_sibling"	"BtnCallVote"
 		"pin_corner_to_sibling"	"PIN_TOPLEFT"
